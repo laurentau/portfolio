@@ -8,7 +8,7 @@ import React from 'react'
         Contact Me
       </h2>
 
-      {/* Grid for contact info and form */}
+      {/*  contact info and form */}
       <div className="grid gap-10 md:grid-cols-2">
         {/* Left Side: Contact Info */}
         <div className="space-y-8">

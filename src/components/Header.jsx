@@ -3,21 +3,94 @@ import React from 'react'
 
  function Header() {
   return (
-    <><nav>
-      <ul class="flex space-x-6 text-lg font-medium  justify-around">
-        <li><a href="Home" class="hover:text-blue-500 transition">Home</a></li>
-        <li><a href="About" class="hover:text-blue-500 transition">About</a></li>
-        <li><a href="Skills" class="hover:text-blue-500 transition">Skills</a></li>
-        <li><a href="projects" class="hover:text-blue-500 transition">Projects</a></li>
-        <li><a href="Contact" class="hover:text-blue-500 transition">Contact</a></li>
+    
+
+  
+      
+      <><nav className="bg-pink-500 py-4 shadow-md">
+      {/*
+<ul> groups the navigation items.
+flex -> use Flexbox
+justify-center -> center items horizontally
+space-x-8 -> horizontal spacing between list items
+*/}
+      <ul className="flex justify-center space-x-8">
+        {/* Each <li> holds one link */}
+
+        <li>
+          {/*
+<a> is the clickable link that scrolls to a section on the page.
+href="#about" -> points to an element with id="about" (e.g., <section id="about">)
+text-white -> white text color for good contrast on the pink background
+font-semibold -> slightly bold text
+hover:text-blue-400 -> change text color to a good blue on hover
+transition duration-300 -> smooth color transition over 300ms
+*/}
+          <a
+            href="#about"
+            className="text-white font-semibold hover:text-blue-400 transition duration-300"
+          >
+            About
+          </a>
+        </li>
+
+        <li>
+          {/* Projects link — same styling as About */}
+          <a
+            href="#projects"
+            className="text-white font-semibold hover:text-blue-400 transition duration-300"
+          >
+            Projects
+          </a>
+        </li>
+
+        <li>
+          {/* Skills link — same styling as the others */}
+          <a
+            href="#skills"
+            className="text-white font-semibold hover:text-blue-400 transition duration-300"
+          >
+            Skills
+          </a>
+        </li>
+
+        <li>
+          {/* Contact link — same styling as the others */}
+          <a
+            href="#contact"
+            className="text-white font-semibold hover:text-blue-400 transition duration-300"
+          >
+            Contact
+          </a>
+        </li>
       </ul>
-    </nav><div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <p className="text-center text-3xl font-bold text-gray-800 max-w-2xl px-4">
-          Hi, I'm Lauren Tau — a passionate web developer who enjoys creating clean,
-          user-friendly designs and turning ideas into interactive digital
-          experiences.
+    </nav>
+     
+      <header className="bg-gradient-to-r from-pink-500 to-blue-500 text-white flex flex-col items-center justify-center h-screen text-center p-6">
+
+        {/* Your name or title */}
+        <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">
+          Hi, I'm Lauren Tau
+        </h1>
+
+        {/* Your professional title */}
+        <h2 className="text-2xl font-semibold mb-6">
+          A Passionate Software Developer
+        </h2>
+
+        {/* Introduction paragraph */}
+        <p className="max-w-2xl text-lg leading-relaxed">
+          I’m a creative and dedicated software developer who enjoys building
+          responsive, user-friendly web applications. I love combining design and
+          functionality to create digital experiences that are both beautiful and
+          efficient. Always learning, always growing — technology inspires me to
+          innovate every day.
         </p>
-      </div></>
+      </header></>
+
+      
+  
+      
 
   )
 }   

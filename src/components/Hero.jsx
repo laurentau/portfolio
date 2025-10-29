@@ -1,11 +1,12 @@
 import React from 'react'
+import image from './assets/Lauren.png'
 
  function Hero() {
   return (
      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:w-1/2">
-        {/* Replace the src values below with your actual image links */}
+        {/* this is where my image is  /*}
         <img
-          src="LaurenJPG"
+          src="./assets/Lauren.jpg"
           alt="Lauren Tau"
           className="w-40 h-40 md:w-52 md:h-52 object-cover rounded-2xl shadow-lg"
         />
