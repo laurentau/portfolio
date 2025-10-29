@@ -35,15 +35,7 @@ import img2 from "../assets/gallery2.jpg";
         {/* Each card has overflow-hidden (so zoom stays clean) and a shadow for depth */}
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
-            src="gallery1" 
-            alt="Gallery item 1"
-            className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
-          />
-        </div>
-
-        <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
-          <img
-            src="gallery2"
+            src="" 
             alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
@@ -60,7 +52,15 @@ import img2 from "../assets/gallery2.jpg";
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
             src=""
-            alt="Gallery item 4"
+            alt="Gallery picture"
+            className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
+          />
+        </div>
+
+        <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
+          <img
+            src=""
+            alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
         </div>
