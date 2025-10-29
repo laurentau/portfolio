@@ -1,15 +1,15 @@
 import React from 'react'
 const Project = () => {
-  // Array of projects
+  
   const projects = [
     {
       name: "Menu Website",
-      description: "A clean and responsive menu website showcasing various dishes.",
+      description: "A clean and cute menu website showcasing various dishes.",
       link: "https://menupage15.netlify.app/", // my link to project
     },
     {
       name: "Restaurant Website",
-      description: "A modern restaurant website with menu, booking, and contact features.",
+      description: "A modern restaurant website with menu, gallery, and contact features.",
       link: "https://elandl15.netlify.app/", // my link to project
     },
     {
@@ -19,7 +19,7 @@ const Project = () => {
     },
     {
       name: "Cafe Website",
-      description: "A cozy cafe website displaying menu, events, and online ordering.",
+      description: "A cozy cafe website displaying menu, contact, and gallery.",
       link: "https://cafestar.netlify.app/", // my link to project
     },
   ];
@@ -39,13 +39,13 @@ const Project = () => {
               key={index}
               className="bg-white/10 backdrop-blur-sm rounded-2xl shadow-xl p-6 flex flex-col justify-between hover:scale-105 transition duration-500"
             >
-              {/* Project title */}
+              {/* The project title */}
               <h3 className="text-2xl font-bold mb-4">{project.name}</h3>
               
-              {/* Project description */}
+              {/*The project description */}
               <p className="mb-6 text-gray-100">{project.description}</p>
               
-              {/* Project link button */}
+              {/* The project link button */}
               <a
                 href={project.link}
                 target="_blank"

@@ -25,13 +25,13 @@ import img2 from "../assets/gallery2.jpg";
       {/* Gallery container */}
       {/* 
         grid = enables grid layout
-        gap-10 = adds generous spacing between images
+        gap-10 = adds some spacing between my  images
         grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 = responsive layout
         max-w-6xl = keeps the gallery nicely centered and not too wide
       */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl w-full">
         
-        {/* Individual image cards */}
+        {/* The image cards */}
         {/* Each card has overflow-hidden (so zoom stays clean) and a shadow for depth */}
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
@@ -44,22 +44,22 @@ import img2 from "../assets/gallery2.jpg";
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
             src="gallery2"
-            alt="Gallery item 2"
+            alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
         </div>
 
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
-            src="https://via.placeholder.com/500x350"
-            alt="Gallery item 3"
+            src=""
+            alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
         </div>
 
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
-            src="https://via.placeholder.com/500x350"
+            src=""
             alt="Gallery item 4"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
@@ -67,16 +67,16 @@ import img2 from "../assets/gallery2.jpg";
 
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
-            src="https://via.placeholder.com/500x350"
-            alt="Gallery item 5"
+            src=""
+            alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
         </div>
 
         <div className="overflow-hidden rounded-2xl shadow-xl bg-white/10 backdrop-blur-sm">
           <img
-            src="https://via.placeholder.com/500x350"
-            alt="Gallery item 6"
+            src=""
+            alt="Gallery picture"
             className="w-full h-72 object-cover transform hover:scale-105 transition duration-500 ease-in-out"
           />
         </div>

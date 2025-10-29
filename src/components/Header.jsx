@@ -9,22 +9,22 @@ import React from 'react'
       
       <><nav className="bg-pink-500 py-4 shadow-md">
       {/*
-<ul> groups the navigation items.
-flex -> use Flexbox
+<ul> it  groups the navigation items.
+flex = use Flexbox
 justify-center  center items horizontally
-space-x-8 -> horizontal spacing between list items
+space-x-8 = horizontal spacing between the list items
 */}
       <ul className="flex justify-center space-x-8">
         {/* Each <li> holds one link */}
 
         <li>
           {/*
-<a> is the clickable link that scrolls to a section on the page.
-href="#about" -> points to an element with id="about" (e.g., <section id="about">)
-text-white -> white text color for good contrast on the pink background
-font-semibold -> slightly bold text
-hover:text-blue-400 -> change text color to a good blue on hover
-transition duration-300 -> smooth color transition over 300ms
+ <a> is the clickable link that scrolls to a section on the page.
+href="#about" = it points to an element with id="about" 
+text-white = white text color for good contrast on the pink background
+font-semibold = slightly bold text
+hover:text-blue-400 = change text color to a cute blue on hover
+transition duration-300 = smooth color transition over 300ms
 */}
           <a
             href="#about"
@@ -35,7 +35,7 @@ transition duration-300 -> smooth color transition over 300ms
         </li>
 
         <li>
-          {/* Projects link — same styling as About */}
+          {/* Project link  */}
           <a
             href="#projects"
             className="text-white font-semibold hover:text-blue-400 transition duration-300"
@@ -45,7 +45,7 @@ transition duration-300 -> smooth color transition over 300ms
         </li>
 
         <li>
-          {/* Skills link — same styling as the others */}
+          {/* Skill link  */}
           <a
             href="#skills"
             className="text-white font-semibold hover:text-blue-400 transition duration-300"
@@ -55,7 +55,7 @@ transition duration-300 -> smooth color transition over 300ms
         </li>
 
         <li>
-          {/* Contact link — same styling as the others */}
+          {/* Contact link  */}
           <a
             href="#contact"
             className="text-white font-semibold hover:text-blue-400 transition duration-300"
