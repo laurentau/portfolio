@@ -11,7 +11,7 @@ import React from 'react'
       {/*
 <ul> groups the navigation items.
 flex -> use Flexbox
-justify-center -> center items horizontally
+justify-center  center items horizontally
 space-x-8 -> horizontal spacing between list items
 */}
       <ul className="flex justify-center space-x-8">
@@ -66,14 +66,14 @@ transition duration-300 -> smooth color transition over 300ms
       </ul>
     </nav>
      
-      <header className="bg-gradient-to-r from-pink-500 to-blue-500 text-white flex flex-col items-center justify-center h-screen text-center p-6">
+      <header className="bg-linear-to-r from-pink-500 to-blue-500 text-white flex flex-col items-center justify-center h-screen text-center p-6">
 
-        {/* Your name or title */}
+        {/* My name   */}
         <h1 className="text-5xl font-extrabold mb-4 drop-shadow-lg">
           Hi, I'm Lauren Tau
         </h1>
 
-        {/* Your professional title */}
+        {/* My professional title */}
         <h2 className="text-2xl font-semibold mb-6">
           A Passionate Software Developer
         </h2>
