@@ -2,7 +2,7 @@ import React from 'react'
 
  function Contact() {
   return (
-     <section className="bg-linear-to-r from-pink-500 to-blue-500 py-16 px-6 md:px-20 text-white">
+     <section id='Contact' className="bg-linear-to-r from-pink-500 to-blue-500 py-16 px-6 md:px-20 text-white">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <h2 className="text-4xl font-bold mb-12 text-center border-b-4 border-white inline-block pb-2">

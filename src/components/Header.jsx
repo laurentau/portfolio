@@ -3,7 +3,7 @@ function Header() {
   return (
     <>
       {/* Navbar */}
-      <nav className="bg-pink-500 py-4 shadow-md">
+      <nav   className="bg-pink-500 py-4 shadow-md">
         {/* Navigation list */}
         <ul className="flex justify-center space-x-8">
           {/* Gallery link */}

@@ -2,7 +2,7 @@ import React from 'react'
 
  function About() {
   return (
-    <section className="bg-linear-to-r from-pink-500 to-blue-500 text-white py-20 px-6">
+    <section id='About' className="bg-linear-to-r from-pink-500 to-blue-500 text-white py-20 px-6">
       <div className="max-w-5xl mx-auto text-center">
         {/* Section heading */}
         <h2 className="text-4xl font-extrabold mb-6 border-b-4 border-white inline-block pb-2">

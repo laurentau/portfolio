@@ -2,7 +2,7 @@ import React from 'react'
 
  function Skills() {
   return (
-      <section className="bg-linear-to-r from-pink-500 to-blue-500 py-16 px-6 md:px-20">
+      <section id='Skills' className="bg-linear-to-r from-pink-500 to-blue-500 py-16 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center">
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-white mb-12">

@@ -7,7 +7,7 @@ import img2 from "../assets/gallery2.jpg";
    // Outer container for the hero section
     // Gradient background from pink to blue
     // Centered text and gallery
-    <section className="bg-linear-to-r from-pink-500 to-blue-500 text-white flex flex-col items-center py-20 px-6">
+    <section id='Hero' className="bg-linear-to-r from-pink-500 to-blue-500 text-white flex flex-col items-center py-20 px-6">
       
       {/* Section heading */}
       <h1 className="text-5xl font-extrabold mb-6 drop-shadow-lg text-center">
